@@ -16,7 +16,7 @@ Herramienta de ingeniería para calcular el **voltaje de ruptura dieléctrica** 
 
 El voltaje de ruptura eléctrica en un gas depende del producto presión × distancia entre electrodos ($p \cdot d$). La fórmula de Paschen modela la ionización por colisiones en avalancha de Townsend:
 
-$$V_b = \frac{B \cdot p \cdot d}{\ln(A \cdot p \cdot d) - \ln\!\left(\ln\!\left(1 + \dfrac{1}{\gamma}\right)\right)}$$
+$$V_b = \frac{B \cdot p \cdot d}{\ln(A \cdot p \cdot d) - \ln\\left(\ln\\left(1 + \dfrac{1}{\gamma}\right)\right)}$$
 
 Donde:
 | Símbolo | Descripción | Unidades |
@@ -30,11 +30,11 @@ Donde:
 
 El **mínimo analítico** de la curva (punto óptimo de operación):
 
-$$\left(p \cdot d\right)_{\min} = \frac{e \cdot \ln\!\left(1 + \frac{1}{\gamma}\right)}{A} \qquad V_{b,\min} = B \cdot (p \cdot d)_{\min}$$
+$$\left(p \cdot d\right)_{\min} = \frac{e \cdot \ln\\left(1 + \frac{1}{\gamma}\right)}{A} \qquad V_{b,\min} = B \cdot (p \cdot d)_{\min}$$
 
 **Condición física del denominador** (verificada en código):
 
-$$A \cdot p \cdot d > \ln\!\left(1 + \frac{1}{\gamma}\right)$$
+$$A \cdot p \cdot d > \ln\\left(1 + \frac{1}{\gamma}\right)$$
 
 ### Mezcla de Gases — Ponderación Molar
 
