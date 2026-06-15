@@ -1,0 +1,7 @@
+# laser-regassing-paschen-tool
+# Dependencias Python
+# Instalar con: pip install -r requirements.txt
+
+flet>=0.21.0
+matplotlib>=3.7.0
+numpy>=1.24.0

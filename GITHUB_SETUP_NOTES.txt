@@ -1,0 +1,62 @@
+# ── GitHub Repository Setup ───────────────────────────────────────────────────
+# Usa este archivo como referencia al configurar el repo en GitHub.
+# NO subir este archivo al repo.
+# ─────────────────────────────────────────────────────────────────────────────
+
+## 📁 NOMBRE DEL REPOSITORIO
+laser-regassing-paschen-tool
+
+
+## 📝 DESCRIPCIÓN (campo "About" en GitHub — máx. 350 caracteres)
+Herramienta de ingeniería para calcular voltajes de ruptura con la Ley de Paschen y simular el proceso completo de re-gassing de tubos láser CO₂ RECI. CLI en Python + GUI de escritorio con panel SCADA en tiempo real (Flet + Matplotlib).
+
+
+## 🏷️ TOPICS (pegar en GitHub → About → Topics)
+paschen-law, co2-laser, vacuum-engineering, plasma-physics, flet, matplotlib, laser-regassing, python, scada, gas-mixture
+
+
+## 🌐 WEBSITE (opcional)
+(dejar vacío o poner tu GitHub Pages si tienes)
+
+
+## 💬 PRIMER COMMIT
+feat: add CLI calculator and GUI SCADA app for Paschen law and CO2 laser re-gassing simulation
+
+
+## 📋 ARCHIVOS A SUBIR (en este orden)
+1. README.md
+2. requirements.txt
+3. .gitignore
+4. paschen_calculator.py     ← versión CLI (funcional)
+5. paschen_app_v12.py        ← versión GUI (renombrar a paschen_app.py si prefieres)
+6. manifold.png              ← diagrama requerido por la GUI
+
+
+## ⚠️ ARCHIVOS QUE NO DEBES SUBIR
+- paschen_app_v5.py al v11   ← versiones antiguas, quedan en tu PC
+- paschen_app_v8_COMPLETO.py ← versión intermedia
+- *_copia.py                 ← copias de trabajo
+
+
+## 🔀 FLUJO GIT SUGERIDO
+git init
+git add README.md requirements.txt .gitignore paschen_calculator.py paschen_app_v12.py manifold.png
+git commit -m "feat: add CLI calculator and GUI SCADA app for Paschen law and CO2 laser re-gassing simulation"
+git branch -M main
+git remote add origin https://github.com/TuUsuario/laser-regassing-paschen-tool.git
+git push -u origin main
+
+
+## 🏷️ PRIMER RELEASE (opcional pero recomendado para portafolio)
+Tag:     v12.0
+Título:  v12 — SCADA + Flushing Simulation + CLI Calculator
+Assets:  paschen_app_v12.py, paschen_calculator.py, manifold.png
+
+
+## ✅ CHECKLIST ANTES DE PUBLICAR
+[ ] Verificar que paschen_calculator.py corre sin errores
+[ ] Verificar que paschen_app_v12.py corre con: python paschen_app_v12.py
+[ ] manifold.png está en la misma carpeta que paschen_app_v12.py
+[ ] El .gitignore excluye versiones antiguas
+[ ] README.md se ve bien en GitHub (previsualizar localmente si puedes)
+[ ] Topics ingresados en la sección "About" del repo
